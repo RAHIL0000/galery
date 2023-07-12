@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="NewFolder\4305f7fa-10fb-415e-b62b-af3bacb8043b.jfif" />
+    <None Remove="NewFolder\channels4_profile.jpg" />
+    <None Remove="NewFolder\e4579c7b-f2a8-4fcd-a641-72b202b6858e.jpg" />
+    <None Remove="NewFolder\Mia_200623_lascape%2520MIA.webp" />
+    <None Remove="NewFolder\MV5BMzc1YTA1ZjItMWRhMy00ZTBlLTkzNTgtNTc4ZDE3YTM3ZDk2XkEyXkFqcGdeQXVyNDUzOTQ5MjY%40._V1_FMjpg_UX1000_.jpg" />
+    <None Remove="NewFolder\unnamed.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="NewFolder\channels4_profile.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="NewFolder\4305f7fa-10fb-415e-b62b-af3bacb8043b.jfif" />
+    <Resource Include="NewFolder\e4579c7b-f2a8-4fcd-a641-72b202b6858e.jpg" />
+    <Resource Include="NewFolder\MV5BMzc1YTA1ZjItMWRhMy00ZTBlLTkzNTgtNTc4ZDE3YTM3ZDk2XkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg" />
+    <Resource Include="NewFolder\unnamed.png" />
+  </ItemGroup>
+
+</Project>
